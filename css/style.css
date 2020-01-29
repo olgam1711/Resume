@@ -1,0 +1,52 @@
+/*общие*/
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Comic Sans", "Helvetica", serif;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 25px;
+  text-align: left;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 900px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.header {
+  color: #ffffff;
+
+  background-color: #6a7fcc;
+}
+
+.footer {
+  color: #ffffff;
+
+  background-color: #6a7fcc;
+}
