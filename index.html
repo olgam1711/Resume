@@ -8,6 +8,7 @@
       <link href="css/normalize.min.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
+  
   <body>
     <div class="container">
       <header class="header">
@@ -15,14 +16,14 @@
           <div class="language__link">
             <span class="visually-hidden">Русский</span>
             <a>
-              <img src="img/Russia.png" width="32" height="32" alt="русский язык">
+              <img class="lang__active" src="img/Russia.png" width="32" height="32" alt="русский язык">
             </a>
           </div>
           
           <div class="language__link">
             <span class="visually-hidden">Английский</span>
             <a href="index_en.html">
-              <img class="lang__active" src="img/United-Kingdom.png" width="32" height="32" alt="английский язык">
+              <img src="img/United-Kingdom.png" width="32" height="32" alt="английский язык">
             </a>
           </div>
         </div>
@@ -35,7 +36,7 @@
 
         <ul class="header__contacts contacts">
           <li class="contacts__item">
-            <img src="img/location.png" width="20" height="20" alt="местоположение">
+            <img src="img/location.png" width="20" height="20" alt="моё местоположение">
 
             <p class="contacts__link">Россия, Москва</p>
           </li>
@@ -68,23 +69,23 @@
         <nav class="header__nav navigation">
           <ul class="navigation__list menu">
             <li class="menu__item">
-              <a class="menu__link" href="#about">Обо мне</a>
+              <a class="menu__link" href="#about-me">Обо мне</a>
             </li>
 
             <li class="menu__item">
-              <a class="menu__link" href="#skill">Навыки</a>
+              <a class="menu__link" href="#my-skill">Навыки</a>
             </li>
 
             <li class="menu__item">
-              <a class="menu__link" href="#courses">Дополнительные курсы</a>
+              <a class="menu__link" href="#my-courses">Дополнительные курсы</a>
             </li>
 
             <li class="menu__item">
-              <a class="menu__link" href="#work">Опыт работы</a>
+              <a class="menu__link" href="#my-work">Опыт работы</a>
             </li>
 
             <li class="menu__item">
-              <a class="menu__link" href="#diploma">Образование</a>
+              <a class="menu__link" href="#my-diploma">Образование</a>
             </li>
           </ul>
         </nav>
@@ -93,7 +94,7 @@
       <main class="main">
         <h1 class="visually-hidden">Резюме</h1>
         
-        <section class="main__section" id="#about">
+        <section class="main__section" id="about-me">
           <h2>Обо мне</h2>
 
           <p>Опыт работы 4,5 года по другой специальности. В данной специальности опыта нет.</p>
@@ -105,9 +106,9 @@
           <p>
             Люблю вёрстку. Знаю флексбоксы, гриды, БЭМ, препроцессоры, адаптивность.
             Умею работать с git, photoshop, sketch.
-            Со шпаргалками могу настроить автосборку gulp.
+            Со шпаргалками могу настроить автосборку Gulp.
             JavaScript пока на уровне junior и базовые вещи, но у меня ещё всё впереди.
-            Училась в HTML Academy, защитила три учебных проекта (по одному на курс - два по вёрстке и один по JS) на 100% каждый.
+            Училась в  <a href="https://htmlacademy.ru/profile/olga_morozova">HTML Academy</a>, защитила три учебных проекта (по одному на курс - два по вёрстке и один по JS) на 100% каждый.
           </p>
 
           <p>
@@ -119,7 +120,7 @@
           </p>
         </section>
         
-        <section class="main__section" id="#skill">
+        <section class="main__section" id="my-skill">
           <h2>Навыки</h2>
 
           <table>
@@ -143,19 +144,19 @@
           </table>
         </section>
         
-        <section class="main__section" id="#courses">
+        <section class="main__section" id="my-courses">
           <h2>Дополнительные курсы</h2>
 
           <div>
             <h3>HTML Academy, интенсив "HTML и CSS, уровень 1" (январь 2019 - март 2019)</h3>
 
-            <p>HTML, CSS, Кроссбраузерная верстка, Валидная верстка, Семантическая верстка</p>
+            <p>HTML, CSS, Кроссбраузерная вёрстка, Валидная вёрстка, Семантическая вёрстка</p>
           </div>
 
           <div>
             <h3>HTML Academy, интенсив "HTML и CSS, уровень 2" (март 2019 - май 2019)</h3>
           
-            <p>Адаптивная верстка, БЭМ, Less/Sass, Gulp</p>
+            <p>Адаптивная вёрстка, БЭМ, Less/Sass, Gulp</p>
           </div>
 
           <div>
@@ -169,10 +170,10 @@
           </div>
         </section>
         
-        <section class="main__section" id="#work">
+        <section class="main__section" id="my-work">
           <h2>Опыт работы</h2>
 
-          <h3>Национальный исследовательский ядерный университет "МИФИ" (НИЯУ МИФИ), Июнь 2012 - Декабрь 2016 (4г7м)</h3>
+          <h3>Национальный исследовательский ядерный университет "МИФИ" (НИЯУ МИФИ), Июнь 2012 - Декабрь 2016</h3>
 
           <p>Аналитик + специалист по документообороту + работа в приемной комиссии вуза</p>
 
@@ -181,12 +182,12 @@
           </p>
         </section>
 
-        <section class="main__section" id="#diploma">
+        <section class="main__section" id="my-diploma">
           <h2>Образование</h2>
 
           <h3>Национальный исследовательский ядерный университет "МИФИ" (НИЯУ МИФИ), 2009 - 2014</h3>
 
-          <p>Кафедра "Управление проектами" (№72)</p>
+          <p>Кафедра "Управление бизнес-проектами" (№72)</p>
 
           <p>"Экономист-менеджер" (специалитет)</p>
         </section>
