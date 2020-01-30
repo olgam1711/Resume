@@ -39,14 +39,30 @@ body {
   overflow: hidden;
 }
 
+/*header*/
 .header {
   color: #ffffff;
 
   background-color: #6a7fcc;
 }
 
+/*footer*/
 .footer {
+  padding: 10px;
+  margin-top: 10px;
+
   color: #ffffff;
 
   background-color: #6a7fcc;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+.footer__text {
+  text-align: center;
 }
