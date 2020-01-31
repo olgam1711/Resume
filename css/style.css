@@ -58,6 +58,7 @@ h3 {
   background-color: #6a7fcc;
 }
 
+/*header языки*/
 .header__lang {
   display: flex;
   justify-content: flex-end;
@@ -74,19 +75,14 @@ h3 {
 }
 
 .lang__active {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .navigation {
   display: block;
 }
 
-@media (min-width: 768px) {
-  .navigation {
-    margin-top: 30px;
-  }
-}
-
+/*header навигация*/
 .menu {
   padding-left: 0;
 
@@ -127,16 +123,19 @@ h3 {
   }
 }
 
+/*main заголовок резюме*/
 .main__title {
   font-size: 25px;
 }
 
+/*main все содержание*/
 @media (min-width: 1200px) {
   .main__general {
     display: flex;
   }
 }
 
+/*main левый столбик*/
 @media (min-width: 768px) {
   .name {
     display: flex;
@@ -205,6 +204,7 @@ h3 {
   color: #0f236f;
 }
 
+/*main правый столбик*/
 .info {
   max-width: 830px;
   margin-left: auto;
@@ -261,6 +261,7 @@ h3 {
   }
 }
 
+/*main курсы*/
 @media (min-width: 768px) {
   .courses__list {
     padding-left: 20px;
