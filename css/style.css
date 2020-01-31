@@ -131,17 +131,23 @@ h3 {
   font-size: 25px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .main__general {
     display: flex;
   }
 }
 
 @media (min-width: 768px) {
-  .main__personal {
-    display: block;
-    justify-content: space-between;
+  .name {
+    display: flex;
     align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1200px) {
+  .name {
+    display: block;
 
     max-width: 300px;
   }
@@ -153,6 +159,12 @@ h3 {
   margin: 25px auto;
 
   background-color: #f1cece;
+}
+
+@media (min-width: 768px) {
+  .name__photo {
+    margin: 25px 0;
+  }
 }
 
 .contacts {
