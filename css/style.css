@@ -5,7 +5,7 @@ body {
 
   font-family: "Comic Sans", "Helvetica", serif;
   font-size: 18px;
-  color: #0f236f;
+  color: #6b291f;
   letter-spacing: 0;
   text-align: center;
   line-height: 25px;
@@ -55,7 +55,7 @@ h3 {
 
   color: #ffffff;
 
-  background-color: #6a7fcc;
+  background-color: #791804;
 }
 
 /*header языки*/
@@ -105,18 +105,18 @@ h3 {
 }
 
 .menu__link:hover {
-  color: #b32424;
+  color: #dc0c0c;
 }
 
 .menu__link:active {
-  color: #b1a4a4;
+  color: #a7a1a1;
 }
 
 /*main*/
 .main {
   padding: 16px;
 
-  background-color: #e8e3e3;
+  background-color: #e8e3e34d;
 }
 
 @media (min-width: 768px) {
@@ -181,17 +181,17 @@ h3 {
 
 .contacts__link {
   line-height: 28px;
-  color: #0f236f;
+  color: #6b291f;
 
   text-decoration: none;
 }
 
 .contacts__link:hover {
-  color: #b32424;
+  color: #dc0c0c;
 }
 
 .contacts__link:active {
-  color: #b1a4a4;
+  color: #a7a1a1;
 }
 
 .location {
@@ -204,11 +204,11 @@ h3 {
 }
 
 .contacts__link--location:hover {
-  color: #0f236f;
+  color: #6b291f;
 }
 
 .contacts__link--location:active {
-  color: #0f236f;
+  color: #6b291f;
 }
 
 /*main правый столбик*/
@@ -227,15 +227,15 @@ h3 {
 }
 
 .info__section a {
-  color: #0a43af;
+  color: #ce2f15;
 }
 
 .info__section a:hover {
-  color: #b32424;
+  color: #dc0c0c;
 }
 
 .info__section a:active {
-  color: #b1a4a4;
+  color: #a7a1a1;
 }
 
 /*технические умения*/
@@ -283,7 +283,7 @@ h3 {
 
   color: #ffffff;
 
-  background-color: #6a7fcc;
+  background-color: #791804;
 }
 
 .footer__text {
