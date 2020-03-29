@@ -5,7 +5,7 @@ body {
 
   font-family: "Comic Sans", "Helvetica", serif;
   font-size: 18px;
-  color: #6b291f;
+  color: #105820;
   letter-spacing: 0;
   text-align: center;
   line-height: 25px;
@@ -55,7 +55,7 @@ h3 {
 
   color: #ffffff;
 
-  background-color: #791804;
+  background-color: #306702;
 }
 
 /*header языки*/
@@ -181,7 +181,7 @@ h3 {
 
 .contacts__link {
   line-height: 28px;
-  color: #6b291f;
+  color: #105820;
 
   text-decoration: none;
 }
@@ -204,11 +204,11 @@ h3 {
 }
 
 .contacts__link--location:hover {
-  color: #6b291f;
+  color: #105820;
 }
 
 .contacts__link--location:active {
-  color: #6b291f;
+  color: #105820;
 }
 
 /*main правый столбик*/
@@ -227,7 +227,7 @@ h3 {
 }
 
 .info__section a {
-  color: #ce2f15;
+  color: #04ad11;
 }
 
 .info__section a:hover {
@@ -283,7 +283,7 @@ h3 {
 
   color: #ffffff;
 
-  background-color: #791804;
+  background-color: #306702;
 }
 
 .footer__text {
