@@ -45,6 +45,10 @@ body {
   overflow: hidden;
 }
 
+h2 {
+  font-size: 25px;
+}
+
 h3 {
   font-size: 19px;
 }
@@ -127,7 +131,7 @@ h3 {
 
 /*main заголовок резюме*/
 .main__title {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 /*main все содержание*/
