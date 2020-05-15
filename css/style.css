@@ -290,3 +290,21 @@ h3 {
 .footer__text {
   text-align: center;
 }
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  text-align: center;
+
+  list-style-type: none;
+}
+
+.footer-list__item {
+  padding: 5px;
+}
+
+.footer-list__item img {
+  filter: invert(1);
+}
