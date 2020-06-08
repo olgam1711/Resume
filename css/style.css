@@ -246,6 +246,15 @@ h3 {
   padding: 0;
 
   list-style-type: none;
+  opacity: 0.6;
+}
+
+.portfolio-list:hover {
+  opacity: 1;
+}
+
+.portfolio-list:active {
+  opacity: 0.3;
 }
 
 .portfolio-list__item {
@@ -253,10 +262,10 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .projects__list {
+  .portfolio-list {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
   }
 }
 
