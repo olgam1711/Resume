@@ -128,6 +128,7 @@ h3 {
 /*main заголовок резюме*/
 .main__title {
   font-size: 25px;
+  line-height: 30px;
 }
 
 /*main все содержание*/
@@ -237,6 +238,25 @@ h3 {
 
 .info__section a:active {
   color: #a5a2a2;
+}
+
+/*Портфолио*/
+.portfolio-list {
+  display: block;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.portfolio-list__item {
+  margin: 20px auto;
+}
+
+@media (min-width: 768px) {
+  .projects__list {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /*технические умения*/
