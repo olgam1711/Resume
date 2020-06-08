@@ -256,6 +256,7 @@ h3 {
   .projects__list {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
   }
 }
 
