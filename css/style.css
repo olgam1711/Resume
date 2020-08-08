@@ -98,17 +98,17 @@ h3 {
   }
 }
 
-.menu__link {
+.menu a {
   text-decoration: none;
   
   color: #ffffff;
 }
 
-.menu__link:hover {
+.menu a:hover {
   color: #b32424;
 }
 
-.menu__link:active {
+.menu a:active {
   color: #a5a2a2;
 }
 
@@ -126,7 +126,7 @@ h3 {
 }
 
 /*main заголовок резюме*/
-.main__title {
+.main h1 {
   font-size: 35px;
   line-height: 30px;
 }
@@ -175,35 +175,42 @@ h3 {
   list-style-type: none;
 }
 
-.contacts__link {
+.contacts a {
+  margin-left: 5px;
+  
   line-height: 28px;
   color: #101010;
 
   text-decoration: none;
 }
 
-.contacts__link:hover {
+.contacts a:hover {
   color: #b32424;
 }
 
-.contacts__link:active {
+.contacts a:active {
   color: #a5a2a2;
 }
 
-.location {
+.contacts li {
   display: flex;
 }
 
-.contacts__link--location {
+.contacts p {
   margin: 0;
   margin-left: 5px;
+
+  line-height: 28px;
+  color: #101010;
+
+  text-decoration: none;
 }
 
-.contacts__link--location:hover {
+.contacts p:hover {
   color: #101010;
 }
 
-.contacts__link--location:active {
+.contacts p:active {
   color: #101010;
 }
 
@@ -249,21 +256,21 @@ h3 {
   }
 }
 
-.portfolio-list__item {
+.portfolio-list li {
   margin: 20px auto;
 
   opacity: 0.6;
 }
 
-.portfolio-list__item:hover {
+.portfolio-list li:hover {
   opacity: 1;
 }
 
-.portfolio-list__item:active {
+.portfolio-list li:active {
   opacity: 0.3;
 }
 
-.portfolio-list__item img {
+.portfolio-list img {
   display: block;
   margin: 15px auto;
 }
@@ -314,8 +321,8 @@ h3 {
   list-style-type: none;  
 }
 
-.work__item--accelerator {
-  margin-bottom: 50px;
+.work li {
+  margin-bottom: 35px;
 }
 
 /*footer*/
@@ -327,7 +334,7 @@ h3 {
   background-color: #da8ba8;
 }
 
-.footer__text {
+.footer p {
   text-align: center;
 }
 
@@ -342,18 +349,18 @@ h3 {
   list-style-type: none;
 }
 
-.footer-list__item {
+.footer-list li {
   padding: 5px;
 }
 
-.footer-list__item img {
+.footer-list img {
   filter: invert(1);
 }
 
-.footer-list__item img:hover {
+.footer-list img:hover {
   opacity: 0.6;
 }
 
-.footer-list__item img:active {
+.footer-list img:active {
   opacity: 0.2;
 }
