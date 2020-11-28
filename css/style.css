@@ -231,6 +231,7 @@ h3 {
 
 .info__section a {
   color: #4b8e50;
+  text-decoration: none;
 }
 
 .info__section a:hover {
@@ -312,19 +313,21 @@ h3 {
 
     list-style-type: square;
   }
+}
 
+@media (min-width: 320px) {
   .academy__list {
-    padding-left: 0;
+    padding-left: 15px;
     
-    list-style-type: none;
+    list-style-type: circle;
   }
 }
 
 /*опыт работы*/
 .work {
-  padding-left: 0;
+  padding-left: 20px;
 
-  list-style-type: none;  
+  list-style-type: square;  
 }
 
 .work li {
