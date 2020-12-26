@@ -311,7 +311,7 @@ h3 {
   .courses__list {
     padding-left: 20px;
 
-    list-style-type: square;
+    list-style-type: circle;
   }
 }
 
@@ -327,12 +327,21 @@ h3 {
 .work {
   padding-left: 20px;
 
-  list-style-type: square;  
+  list-style-type: circle;  
 }
 
-.work li {
+.work__item {
   margin-bottom: 35px;
 }
+
+.work__item ul {
+  padding-left: 20px;
+}
+
+.work__item li {
+  list-style-type: disc;
+}
+
 
 /*footer*/
 .footer {
