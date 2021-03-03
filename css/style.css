@@ -319,7 +319,7 @@ h3 {
   .academy__list {
     padding-left: 15px;
     
-    list-style-type: circle;
+    list-style-type: disc;
   }
 }
 
