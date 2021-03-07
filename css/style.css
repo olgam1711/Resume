@@ -56,6 +56,7 @@ h3 {
   color: #ffffff;
 
   background-color: #046f8e;
+  overflow: hidden;
 }
 
 /*header языки*/
@@ -64,12 +65,12 @@ h3 {
   justify-content: flex-end;
 }
 
-.language__link {
+.language__link:first-child {
   margin-right: 5px;
 }
 
 @media (min-width: 768px) {
-  .language__link {
+  .language__link:first-child {
     margin-right: 10px;
   }
 }
@@ -94,7 +95,7 @@ h3 {
 @media (min-width: 768px) {
   .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
@@ -127,8 +128,13 @@ h3 {
 
 /*main заголовок резюме*/
 .main h1 {
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+@media (max-width: 767px) {
+  .main h1 {
+    font-size: 35px;  }
 }
 
 /*main все содержание*/
