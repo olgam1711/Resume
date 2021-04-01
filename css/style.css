@@ -259,7 +259,7 @@ h3 {
   .portfolio-list {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
   }
 }
 
