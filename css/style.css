@@ -60,11 +60,6 @@ h3 {
 }
 
 /*header языки*/
-.header__lang {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .language__link:first-child {
   margin-right: 5px;
 }
@@ -117,13 +112,18 @@ h3 {
 .main {
   padding: 16px;
 
-  background: linear-gradient(to top right, #f5bfd3, #b0def9);
+  background: linear-gradient(to top right,#f3e7eb,#f7fafd);
 }
 
 @media (min-width: 768px) {
   .main {
     padding: 25px;
   }
+}
+
+.main__lang {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /*main заголовок резюме*/
