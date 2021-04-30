@@ -296,6 +296,12 @@ h3 {
 }
 
 /*технические умения*/
+.skills ul {
+  padding-left: 20px;
+
+  list-style-type: circle;
+}
+
 .skills__table {
   min-width: 300px;
 
@@ -326,12 +332,10 @@ h3 {
 }
 
 /*main курсы*/
-@media (min-width: 768px) {
-  .courses__list {
-    padding-left: 20px;
+.courses__list {
+  padding-left: 20px;
 
-    list-style-type: circle;
-  }
+  list-style-type: circle;
 }
 
 @media (min-width: 320px) {
@@ -351,6 +355,10 @@ h3 {
 
 .work__item {
   margin-bottom: 35px;
+}
+
+.position__name {
+  font-style: italic;
 }
 
 .work__item ul {
