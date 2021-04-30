@@ -124,17 +124,30 @@ h3 {
 .main__lang {
   display: flex;
   justify-content: flex-start;
+
+  max-width: 200px;
+}
+
+@media (min-width: 768px) {
+  .main__lang {
+    max-width: 1200px;
+  }
 }
 
 /*main заголовок резюме*/
 .main h1 {
-  font-size: 40px;
+  max-width: 200px;
+
+  font-size: 35px;
   line-height: 50px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .main h1 {
-    font-size: 35px;  }
+    max-width: 1200px;
+
+    font-size: 40px;
+  }
 }
 
 /*main все содержание*/
