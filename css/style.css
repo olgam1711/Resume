@@ -112,7 +112,7 @@ h3 {
 .main {
   padding: 16px;
 
-  background: linear-gradient(to top left, #fbb0a5, #fcfcd3);
+  background: linear-gradient(to top left, #efc9c4, #f3f3d9);
 }
 
 @media (min-width: 768px) {
@@ -367,6 +367,10 @@ h3 {
 
 .work__item li {
   list-style-type: disc;
+}
+
+.position--mephi {
+  display: none;
 }
 
 
