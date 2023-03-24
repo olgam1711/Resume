@@ -112,7 +112,7 @@ h3 {
 .main {
   padding: 16px;
 
-  background: linear-gradient(to top left, #efc9c4, #f3f3d9);
+  background: linear-gradient(to top left, #d3fbf1, #fcf5e2);
 }
 
 @media (min-width: 768px) {
@@ -357,9 +357,9 @@ h3 {
   margin-bottom: 35px;
 }
 
-.position__name {
+/*.position__name {
   font-style: italic;
-}
+}*/
 
 .work__item ul {
   padding-left: 20px;
@@ -369,10 +369,11 @@ h3 {
   list-style-type: disc;
 }
 
-.position--mephi {
-  display: none;
+.work__item a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
 
 /*footer*/
 .footer {
