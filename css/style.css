@@ -112,7 +112,7 @@ h3 {
 .main {
   padding: 16px;
 
-  background: linear-gradient(to top left, #d3fbf1, #fcf5e2);
+  background: #fcf2e2;
 }
 
 @media (min-width: 768px) {
