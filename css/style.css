@@ -47,6 +47,7 @@ body {
 
 h3 {
   font-size: 19px;
+  font-weight: normal;
 }
 
 /*header*/
@@ -57,55 +58,6 @@ h3 {
 
   background-color: #046f8e;
   overflow: hidden;
-}
-
-/*header языки*/
-.language__link:first-child {
-  margin-right: 5px;
-}
-
-@media (min-width: 768px) {
-  .language__link:first-child {
-    margin-right: 10px;
-  }
-}
-
-.language__active {
-  opacity: 0.5;
-}
-
-.navigation {
-  display: block;
-}
-
-/*header навигация*/
-.menu {
-  display: none;
-  
-  padding-left: 0;
-
-  list-style-type: none;
-}
-
-@media (min-width: 768px) {
-  .menu {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-.menu a {
-  text-decoration: none;
-  
-  color: #ffffff;
-}
-
-.menu a:hover {
-  color: #b32424;
-}
-
-.menu a:active {
-  color: #a5a2a2;
 }
 
 /*main*/
@@ -138,7 +90,7 @@ h3 {
 .main h1 {
   max-width: 200px;
 
-  font-size: 35px;
+  font-size: 32px;
   line-height: 50px;
 }
 
@@ -146,7 +98,7 @@ h3 {
   .main h1 {
     max-width: 1200px;
 
-    font-size: 40px;
+    font-size: 36px;
   }
 }
 
@@ -240,6 +192,7 @@ h3 {
 
 .portfolio h3 {
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .portfolio__list {
@@ -390,8 +343,6 @@ h3 {
 
 .work__item a {
   display: block;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 /*footer*/
