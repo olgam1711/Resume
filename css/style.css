@@ -206,6 +206,13 @@ h3 {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .portfolio {
+    max-width: 768px;
+    text-align: center;
+  }
+}
+
 /*main правый столбик*/
 .info {
   max-width: 830px;
