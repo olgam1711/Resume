@@ -219,6 +219,28 @@ h3 {
   }
 }
 
+.portfolio--tablet,
+.portfolio--desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .portfolio--desktop {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio--desktop {
+    display: block;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .portfolio--tablet {
+    display: block;
+  }
+}
+
 /*main правый столбик*/
 .info {
   max-width: 830px;
