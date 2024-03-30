@@ -249,7 +249,7 @@ h3 {
 }
 
 .info__section {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .info__section:last-child {
@@ -338,6 +338,19 @@ h3 {
   }
 }
 
+.title-date {
+  display: flex;
+}
+
+.date {
+  font-style: italic;
+  justify-content: right;
+}
+
+.title-date a {
+  display: block;
+}
+
 /*main курсы*/
 .courses__list {
   padding-left: 20px;
@@ -346,7 +359,7 @@ h3 {
 }
 
 @media (min-width: 320px) {
-  .academy__list {
+  .academy__p {
     padding-left: 15px;
     
     list-style-type: disc;
