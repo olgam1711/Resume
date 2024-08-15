@@ -261,11 +261,13 @@ h3 {
   text-decoration: none;
 }
 
-.info__section a:hover {
+.info__section a:hover,
+.portfolio__list a:hover {
   color: #b32424;
 }
 
-.info__section a:active {
+.info__section a:active,
+.portfolio__list a:active {
   color: #a5a2a2;
 }
 /*
